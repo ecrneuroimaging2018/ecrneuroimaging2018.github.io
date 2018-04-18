@@ -13,8 +13,9 @@ body {
 }
 
 .content-section {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  height: 100vh;
 }
 
 .content-section-heading h2 {
@@ -41,7 +42,7 @@ h6 {
 
 /* Map */
 .map {
-  height: 30rem;
+  height: 100%;
 }
 
 @media (max-width: 992px) {
@@ -85,20 +86,25 @@ h6 {
   display: table;
   width: 100%;
   height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/header.png");
-<<<<<<< HEAD
+  padding-top: 7rem;
+  padding-right: 0rem;
+  padding-bottom: 7rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/walnut02.png");
   background-position: left center;
-=======
-  background-position: center center;
->>>>>>> 913e535d21a047a3930971f0265a5bf32aa40077
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
 .masthead h1 {
   font-size: 4rem;
+  font-size: 4vmax;
+  margin: 0;
+  padding: 0;
+}
+
+.masthead h4 {
+  font-size: 2.5rem;
+  font-size: 2.5vmax;
   margin: 0;
   padding: 0;
 }
