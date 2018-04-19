@@ -13,11 +13,7 @@ body {
 }
 
 .content-section {
-<<<<<<< HEAD
-  padding-top: 1.5rem;
-=======
   padding-top: 2rem;
->>>>>>> 5fe44d580e90fc3a9e5e025d1c572e878f23d371
   padding-bottom: 2rem;
   height: 100vh;
 }
